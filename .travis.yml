@@ -13,4 +13,4 @@ matrix:
   - go: master
 
 script:
- - go test -bench=.
+ - go test -bench=. --benchmem
